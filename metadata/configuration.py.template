@@ -1,0 +1,22 @@
+""" Template configuration file. To configure this program, add your own API credentials.
+
+Once you have filled the gap below, rename this file as `configuration.py` and the script is good
+enough to be executed !  ;)
+
+Author: Stevy KIMPE
+Date: 2019, October 29th
+"""
+
+class MusicConfig:
+    """ Class storing static information about target music files. """
+
+    extensions = ['.flac']  # Targeted files extension
+    # To add more, you should adapt the class method: metadata.AlbumMetaData.format to accept them.
+
+
+class SpotifyConfig:
+    """ Spotify API communication data."""
+
+    ClientID =         # To Fill with your own credential
+    ClientSecret =     # To Fill with your own credential
+    RedirectURI =      # To Fill with your own credential
